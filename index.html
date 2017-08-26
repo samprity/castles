@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .jumbotron {
+            background-color: lightblue;
+            color: #fff;
+        }
+        .bg-grey {
+            background-color: #f6f6f6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1><span class="glyphicon glyphicon-tower"></span> Aequilibrium | The Castle Company <span class="glyphicon glyphicon-tower"></span></h1>
+</div>
+
+<div class="text-center">
+  <h2>Create your land</h2>
+  <h4 class="text-muted">Each number represents the current height of the land. So add away!!</h4>  
+</div>
+<div class="text-center" id="addLand">
+    <button class="btn btn-success btn-lg">1</button>
+    <button class="btn btn-success btn-lg">2</button>
+    <button class="btn btn-success btn-lg">3</button>
+    <button class="btn btn-success btn-lg">4</button>
+    <button class="btn btn-success btn-lg">5</button>
+    <button class="btn btn-success btn-lg">6</button>
+    <button class="btn btn-success btn-lg">7</button>
+    <button class="btn btn-success btn-lg">8</button>
+    <button class="btn btn-success btn-lg">9</button>
+    <button class="btn btn-success btn-lg">10</button>
+</div>
+<div class="text-center">
+    <h4 class="text-muted"> Land : <span id="landArrayDisplay" /> </h4>
+    <button type="button" class="btn btn-info" id="build">Build Castles</button>
+    <button type="button" class="btn btn-danger" id="clear">Clear</button>
+    <span id="castlesDisplay"/>
+<div>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
